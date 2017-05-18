@@ -1,0 +1,33 @@
+﻿Сборка начата 18.05.2017 13:23:38.
+     1>Проект "c:\Users\vasia\documents\visual studio 2013\Projects\lab_3_web\lab_3_web\lab_3_web.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\index.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+     1>cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\index.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt lab_3_web.cpp Triangle.cpp
+     1>cl : командная строка warning D9025: переопределение "/sdl" на "/GS-"
+         Triangle.cpp
+         lab_3_web.cpp
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(23): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(462): см. объявление "getenv"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(142): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): см. объявление "strcpy"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(160): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(204): см. объявление "strtok"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(163): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): см. объявление "strcpy"
+     1>c:\users\vasia\documents\visual studio 2013\projects\lab_3_web\lab_3_web\lab_3_web.cpp(164): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(204): см. объявление "strtok"
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\xampp\cgi-bin\index.cgi" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\xampp\cgi-bin\index.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\xampp\cgi-bin\index.lib" /MACHINE:X86 Debug\lab_3_web.obj
+         Debug\stdafx.obj
+         Debug\Triangle.obj
+         lab_3_web.vcxproj -> F:\xampp\cgi-bin\index.cgi
+     1>Сборка проекта "c:\Users\vasia\documents\visual studio 2013\Projects\lab_3_web\lab_3_web\lab_3_web.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.65
